@@ -1,0 +1,46 @@
+<!--
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>My Teams Page</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Ionic Menu Starter</h3>
+
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  </p>
+
+  <button ion-button secondary menuToggle>Toggle Menu</button>
+</ion-content>
+-->
+
+<ion-header> 
+  <ion-navbar color="primary">
+    <button menuToggle>
+      <ion-icon name="menu"> </ion-icon>
+    </button>
+    <ion-title>Elite Schedule</ion-title>
+  </ion-navbar>
+  <ion-toolbar color="secondary">
+    <button ion-button menuToggle>
+      <ion-icon name="heart"></ion-icon>
+    </button>      
+          <ion-title>My Teams</ion-title>
+  </ion-toolbar>
+</ion-header>
+  <h3>My Team Details</h3>
+
+<ion-content padding>
+<p>
+  <button ion-button secondary menuToggle>Another way to see Menu</button>
+</p>
+<p> FIrst Select Tournament </p>
+
+  <button ion-button (click)="goToTournaments()">Find another Tournament</button>
+
+</ion-content>
