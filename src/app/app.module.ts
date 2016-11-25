@@ -7,7 +7,7 @@ import { MyTeamsPage } from '../pages/pages';
 import { TournamentsPage } from '../pages/pages';
 import { TeamsPage } from '../pages/pages';
 import { TeamDetailPage } from '../pages/pages';
-// import { TeamHomePage, StandingsPage } from '../pages/pages';
+import { TeamHomePage, StandingsPage } from '../pages/pages';
 
 
 @NgModule({
@@ -18,8 +18,8 @@ import { TeamDetailPage } from '../pages/pages';
     MyTeamsPage,
     TeamsPage,
     TeamDetailPage,
-    // TeamHomePage,
-    // StandingsPage,
+    TeamHomePage,
+    StandingsPage,
     TournamentsPage
   ],
   imports: [
@@ -33,8 +33,8 @@ import { TeamDetailPage } from '../pages/pages';
     MyTeamsPage,
     TeamsPage,
     TeamDetailPage,
-    // TeamHomePage,
-    // StandingsPage,
+    TeamHomePage,
+    StandingsPage,
     TournamentsPage
   ],
   providers: []

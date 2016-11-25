@@ -6,8 +6,8 @@ import { Page1 } from '../pages/pages';
 import { Page2 } from '../pages/pages';
 import { MyTeamsPage } from '../pages/pages';
 import { TournamentsPage } from '../pages/pages';
-import { TeamsPage } from '../pages/pages';
-import { TeamDetailPage } from '../pages/pages';
+// import { TeamsPage } from '../pages/pages';
+// import { TeamDetailPage } from '../pages/pages';
 // import { TeamHomePage, StandingsPage } from '../pages/pages';
 
 @Component({

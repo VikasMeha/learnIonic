@@ -2,12 +2,17 @@
   <ion-navbar color="primary">
     <ion-title>{{team.name}} </ion-title>
   </ion-navbar>
-
 </ion-header>
 
 
 <ion-content padding>
   <h2>Team Details</h2>
+  <p></p>
   <h3>The Team ID is - {{team.id}}</h3>
   <h3>The Team name is - {{team.name}}</h3>
+
+  <button ion-button (click)="goHome()">
+      Go Home
+  </button>
+
 </ion-content>

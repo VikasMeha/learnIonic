@@ -14,5 +14,7 @@ export class TeamDetailPage {
       console.log ('**nav params:', this.NavParams );
   }
 
-      
+ goHome(){
+   this.navCtrl.parent.parent.popToRoot();
+ }     
 }

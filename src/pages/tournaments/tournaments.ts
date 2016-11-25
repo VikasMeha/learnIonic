@@ -5,7 +5,7 @@ import { TeamsPage } from '../pages';
 
  // import { TeamsPage } from '../teams/teams';
 // import { TeamsPage } from '../pages';
-import { MyTeamsPage } from '../pages';
+// import { MyTeamsPage } from '../pages';
 
 @Component({
   selector: 'page-tournaments',
